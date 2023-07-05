@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-color: #212020;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+        }
+
+        .container {
+            display:flex;
+            flex-direction: column;
+            width:400px;
+            height:500px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-top: 5%;
+            margin-left: 35%;
+            padding-top:10px;
+            padding:15px;
+            gap:5px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .label {
+            height:20px;
+        }
+
+        .text-area {
+            height: 30px;
+        }
+
+        .button {
+            border: none;
+            border-radius: 10px;
+            height: 40px;
+            margin-top: 15px;
+            background-color: #262525;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Signup</h2>
+        <label class="label" for="name">Name:</label>
+        <input class="text-area" type="text" name="Name" id="name">
+        <label class="label" for="batch">Batch:</label>
+        <select class="text-area" name="batch-names" id="batch">
+            <option value="Sigma English">Sigma English</option>
+            <option value="Sigma Hinglish">Sigma Hinglish</option>
+            <option value="Sigma 2.O English">Sigma 2.O English</option>
+            <option value="Sigma 2.O Hinglish">Sigma 2.O Hinglish</option>
+        </select>
+        <label class="label" for="age">Age:</label>
+        <input class="text-area" type="text" name="Age" id="Age">
+        <label class="label" for="email">Email:</label>
+        <input class="text-area" type="text" name="Email" id="email">
+        <label class="label" for="password">Password:</label>
+        <input class="text-area" type="text" name="Password" id="password">
+        <button class="button">Signup</button>
+    </div>
+</body>
+</html>
